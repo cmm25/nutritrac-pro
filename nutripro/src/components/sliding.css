@@ -5,6 +5,6 @@
 h1{
     font-size: clamp(1rem, 4vw, 3rem);
     background-color:inherit;
-    margin-left:10px;
+    margin-left:15px;
 
 }

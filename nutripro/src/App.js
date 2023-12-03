@@ -1,12 +1,10 @@
 import React from 'react'
 import './App.css';
 import Hero  from './components/hero'
-import Search from './components/search'
 import NavBar from './components/navbar';
 import Footer from './components/footer';
-import Card from './components/card'
-import data from "./data"
 import Sliders from "./components/sliders"
+
 
 
 function App() {

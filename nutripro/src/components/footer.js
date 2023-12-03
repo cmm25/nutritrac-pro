@@ -21,9 +21,9 @@ function Footer() {
             </div>
             <div className="col-3">
                 <ul className="social-media">
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li><ion-icon name="logo-github"></ion-icon></li>
+                    <li><ion-icon name="logo-discord"></ion-icon></li>
+                    <li><ion-icon name="logo-linkedin"></ion-icon></li>
                 </ul>
             </div>
           </div>

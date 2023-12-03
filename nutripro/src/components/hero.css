@@ -11,6 +11,9 @@
     align-items:left;
     flex: 1;
   }
+.img-hero{
+  object-fit: cover;
+}
 .home-text-section {
     flex: 1;
     display: flex;
@@ -27,6 +30,7 @@
 .primary-text {
     font-size: clamp(1rem, 3vw, 1.5rem);
     max-width: 400px;
+    margin-left:15px;
 }
 .hero-button {
   padding: 1rem 2.5rem;
@@ -39,10 +43,16 @@
   font-weight: 600;
   color: white;
   transition: 0.2s;
+  margin-left:15px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .hero-button:hover {
   background-color: #e48f0f;
+}
+@media(max-width:1000px){
+  .banner-container{
+      display: block;
+  }
 }

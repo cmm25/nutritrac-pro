@@ -3,14 +3,15 @@
     font-size: 18px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-gap: 2rem;
+    grid-gap: 1rem;
     margin-bottom: 1rem;
     margin-left:10px;
 }
 .slide img{
-    width: 100%;
+    width: 90%;
     height:80%;
     object-fit:cover;
+    border-radius:15px;
 }
 .slide h2{
     margin-bottom: 2rem;
@@ -20,4 +21,10 @@
 }
 .slide:nth-child(even) img{
     order: 2;
+}
+@media(max-width:1000px){
+    .slide{
+        display: block;
+        width: 100%;
+    }
 }
