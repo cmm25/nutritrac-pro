@@ -23,7 +23,7 @@ function Footer() {
                 <ul className="social-media">
                     <li></li>
                     <li></li>
-                    <li>GUD STUFF</li>
+                    <li></li>
                 </ul>
             </div>
           </div>

@@ -11,7 +11,7 @@ import Sliders from "./components/sliders"
 
 
 function App() {
-  const cards = data.map(item => {
+ /* const cards = data.map(item => {
     return (
         <Card 
             img={item.coverImg}
@@ -20,20 +20,17 @@ function App() {
             
         />
     )
-})        
+})   */     
   return (
     <div className="App">
       <NavBar/>
       <Hero/>
       <Search/>
       <CardArea/>
-      <section className="cards-list">
-        {cards}
-      </section> 
       <Sliders/>
       <Footer/>
     </div>
   );
-}
+};
 
 export default App;
