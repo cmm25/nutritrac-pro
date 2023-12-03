@@ -6,13 +6,12 @@
   }
   
 .home-image-section {
-    margin:0;
-    max-width: 400px;
+    margin:auto;
     align-items:left;
     flex: 1;
   }
 .img-hero{
-  object-fit: cover;
+  width: 100%;
 }
 .home-text-section {
     flex: 1;
@@ -47,6 +46,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  width: moz-fit-content;
 }
 .hero-button:hover {
   background-color: #e48f0f;
@@ -54,5 +54,8 @@
 @media(max-width:1000px){
   .banner-container{
       display: block;
+  }
+  .hero-button{
+    font-size: 2vw;
   }
 }
