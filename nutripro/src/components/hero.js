@@ -6,10 +6,10 @@ function Hero(){
         <div className="banner-container">
             <div className="home-text-section">
                 <h1 className="primary-heading">
-                  Your Recommended Meal plans
+                  Your Recommended Body Mass Index plans
                 </h1>
                 <p className="primary-text">
-                    Healthy foods per your given diagnosis.
+                    Healthy advice per your given diagnosis.
                 </p>
                 <button className=" hero-button">
                 <Link  to="bmi" 

@@ -7,7 +7,7 @@ function Slider2(){
             <div>
             <h2>Peanuts</h2>
             <p>
-             Peanuts are a common allergy across the world, 1 in 200 adults on average have one. Peanut allergies can cause hives and swelling of the skin, and shortness of breath, and are sometimes so severe that any contact with peanuts may set off the symptoms.
+                The numerous findings showing that peanuts help you manage your weight all fall in line with population studies showing that people who eat peanuts and peanut butter tend to have a lower Body Mass Index (BMI).
             </p>
         
             </div>

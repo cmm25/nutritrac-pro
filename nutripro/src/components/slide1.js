@@ -7,7 +7,7 @@ function Slider(){
             <div>
             <h2>Fish</h2>
             <p>
-                A fish allergy can cause various symptoms, from mild, like hives and digestive discomfort, to severe, including anaphylaxis, shortly after consuming fish. Triggered by proteins in fish, even small amounts can pose significant risks, emphasizing the necessity of strict fish avoidance for those with this allergy.
+            Fish is a great source of protein and omega-3 fatty acids, which are essential for good health. According to the American Heart Association, you should eat at least two servings of fish each week.
             </p>
         
             </div>

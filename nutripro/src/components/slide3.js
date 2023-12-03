@@ -7,7 +7,7 @@ function Slider3(){
             <div>
             <h2>Milk</h2>
             <p>
-                Milk allergy can cause symptoms like hives, digestive issues, or even severe anaphylaxis shortly after consuming milk or its derivatives. This immune response is triggered by proteins in milk, such as casein and whey, making strict avoidance crucial for individuals with this allergy.
+                Drinking milk has long been associated with healthy bones. This is due to its powerful combination of nutrients, including calcium, phosphorus, potassium, protein and (in grass-fed, full-fat dairy) vitamin K2.
             </p>
             </div>
       </div>

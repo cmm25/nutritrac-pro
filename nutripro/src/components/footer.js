@@ -12,17 +12,6 @@ function Footer() {
               offset={-10} 
               duration={500} >Nutripro.</Link></h2>
             </div>
-            
-            <div className="col">
-              <ul className="participants">
-                <li>Lorem ipsum</li>
-                <li>Lorem ipsum</li>
-                <li>Lorem ipsum</li>
-                <li>Lorem ipsum</li>
-                <li>Lorem ipsum</li>
-                <li>Lorem ipsum</li>
-              </ul>
-            </div>
             <div className="col-3">
                 <ul className="social-media">
                     <li><ion-icon name="logo-github"></ion-icon></li>
