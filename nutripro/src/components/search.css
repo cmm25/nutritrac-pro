@@ -1,8 +1,8 @@
 .search-area{
     display:flex;
     justify-content:center;
-    margin-top: 20px
-    
+    margin-top: 20px;
+    background-color:white;
 }
 .input-area{
     height:3rem;

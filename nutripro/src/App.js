@@ -3,7 +3,6 @@ import './App.css';
 import Hero  from './components/hero'
 import Search from './components/search'
 import NavBar from './components/navbar';
-import CardArea from'./components/cardarea';
 import Footer from './components/footer';
 import Card from './components/card'
 import data from "./data"
@@ -25,8 +24,6 @@ function App() {
     <div className="App">
       <NavBar/>
       <Hero/>
-      <Search/>
-      <CardArea/>
       <Sliders/>
       <Footer/>
     </div>

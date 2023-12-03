@@ -10,7 +10,11 @@ function Hero(){
                 <p className="primary-text">
                     Healthy foods per your given diagnosis.
                 </p>
+                <button className=" hero-button">
+                    BMI CALCULATOR
+                </button>
             </div>  
+            
             <div className="home-image-section">
              <img src={BannerImage} alt="" />
             </div>

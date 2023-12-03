@@ -5,6 +5,7 @@ import './sliding.css'
 function Sliders(){
     return(
         <div className="slider-container">
+            <h1>Spotlight</h1>
             <Slider/>
             <Slider2/>
             <Slider3/>
