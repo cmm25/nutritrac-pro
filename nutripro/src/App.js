@@ -3,29 +3,34 @@ import './App.css';
 import Hero  from './components/hero'
 import Search from './components/search'
 import NavBar from './components/navbar';
-import cardArea from'./components/cardarea';
+import CardArea from'./components/cardarea';
 import Footer from './components/footer';
-import './App.css';
+import Card from './components/card'
+import data from "./data"
+import Sliders from "./components/sliders"
+
 
 function App() {
   const cards = data.map(item => {
     return (
-        <Card
-            key={item.id}
-            {...item}
+        <Card 
+            img={item.coverImg}
+            rating={item.description}
+            title={item.title}
             
         />
     )
-})   
+})        
   return (
     <div className="App">
       <NavBar/>
       <Hero/>
       <Search/>
+      <CardArea/>
       <section className="cards-list">
         {cards}
-      </section>         
-      
+      </section> 
+      <Sliders/>
       <Footer/>
     </div>
   );

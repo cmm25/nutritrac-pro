@@ -1,5 +1,5 @@
 import "./hero.css"
-import BannerImage from "../assets/home-banner-image.png";
+import BannerImage from "../images/home-banner-image.png";
 function Hero(){
     return(
         <div className="banner-container">

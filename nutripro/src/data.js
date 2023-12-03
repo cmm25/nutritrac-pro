@@ -15,6 +15,6 @@ export default [
       id:3,
       title:"Fish",
       description:"A fish allergy can cause various symptoms, from mild, like hives and digestive discomfort, to severe, including anaphylaxis, shortly after consuming fish. Triggered by proteins in fish, even small amounts can pose significant risks, emphasizing the necessity of strict fish avoidance for those with this allergy.",
-      coverImg: "fish.jpg",
+     coverImg: "fish.jpg",
     }
 ]

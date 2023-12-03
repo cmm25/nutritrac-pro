@@ -1,8 +1,8 @@
-function cardArea(){
+function CardArea(){
     return(
         <div>
-            <h1>Spotlight</h1><hr  className="spotlight"/>
+            <h1>Spotlight</h1>
         </div>
     )
 }
-export default cardArea;
+export default CardArea;

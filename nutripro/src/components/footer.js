@@ -21,8 +21,8 @@ function Footer() {
             </div>
             <div className="col-3">
                 <ul className="social-media">
-                    <li><FaGithub/></li>
-                    <li><FaDiscord/></li>
+                    <li></li>
+                    <li></li>
                     <li>GUD STUFF</li>
                 </ul>
             </div>
