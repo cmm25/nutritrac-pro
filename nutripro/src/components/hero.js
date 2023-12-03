@@ -1,4 +1,5 @@
 import "./hero.css"
+import {Link} from 'react-scroll';
 import BannerImage from "../images/home-banner-image.png";
 function Hero(){
     return(
@@ -11,7 +12,12 @@ function Hero(){
                     Healthy foods per your given diagnosis.
                 </p>
                 <button className=" hero-button">
-                    BMI CALCULATOR
+                <Link  to="bmi" 
+                spy={true} 
+                smooth={true} 
+                offset={-55} 
+                duration={500} >BMI CALCULATOR</Link>
+                    
                 </button>
             </div>  
             

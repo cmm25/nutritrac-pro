@@ -51,7 +51,7 @@ function Bmi(){
     return(
         <div className="bmi-section">
           <div className='calc'>
-            <h2 className='center'>BMI Calculator</h2>
+            <h2 className='center' id="bmi">BMI Calculator</h2>
             <form onSubmit={calculateBmi}>
               <div>
                 <label>Weight (lbs)</label>

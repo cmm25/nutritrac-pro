@@ -21,6 +21,9 @@
 .nav-menu li {
     color: black;
 }
+.nav-menu li:hover{
+    cursor:pointer;
+}
 @media (max-width: 1000px) {
     .logo{
         font-size: 8vw;

@@ -10,7 +10,7 @@ function NavBar(){
                 <li><Link  to="section1" 
                 spy={true} 
                 smooth={true} 
-                offset={-100} 
+                offset={10} 
                 duration={500} >spotlight</Link>  </li>
                 <li>communities</li>
             </ul>

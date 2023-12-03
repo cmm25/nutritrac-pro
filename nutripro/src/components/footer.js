@@ -1,12 +1,16 @@
 import './footer.css'
-import {FaGithub,FaDiscord} from 'react-icons'
+import {Link} from 'react-scroll';
 function Footer() {
     return (
       <div className="main-footer">
         <div className="container">
           <div className="row">
             <div className="col">
-              <h2><a href="#top">Nutripro.</a></h2>
+              <h2><Link  to="top" 
+              spy={true} 
+              smooth={true} 
+              offset={-10} 
+              duration={500} >Nutripro.</Link></h2>
             </div>
             
             <div className="col">
