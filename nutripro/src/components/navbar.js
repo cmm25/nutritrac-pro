@@ -1,12 +1,17 @@
 import "./nav.css";
+import {Link} from 'react-scroll';
 
 function NavBar(){
     return(
         <header className="nav">
-            <div className="logo">Nutripro</div>
+            <div className="logo" id="top">Nutripro</div>
             <ul className="nav-menu">
-                <li>home</li>
-                <li>recipe</li>
+                <li><a>home</a></li>
+                <li><Link  to="section1" 
+                spy={true} 
+                smooth={true} 
+                offset={-100} 
+                duration={500} >spotlight</Link>  </li>
                 <li>communities</li>
             </ul>
         </header>

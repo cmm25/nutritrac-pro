@@ -1,10 +1,10 @@
 import React from 'react'
-import './App.css';
 import Hero  from './components/hero'
 import NavBar from './components/navbar';
 import Footer from './components/footer';
-import Sliders from "./components/sliders"
-
+import Sliders from "./components/sliders";
+import Bmi from "./components/calculator"
+import './App.css';
 
 
 function App() {
@@ -23,6 +23,7 @@ function App() {
       <NavBar/>
       <Hero/>
       <Sliders/>
+      <Bmi/>
       <Footer/>
     </div>
   );

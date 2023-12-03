@@ -6,45 +6,51 @@ function Bmi(){
     const [bmi, setBmi] = useState('')
     const [message, setMessage] = useState('')
     
-    let calculateBmi=(event)=>{
-        event.preventDefault()
-    
-    if (weight === 0 || height === 0) {
+    let calculateBmi=(event) => {
+      //prevent submitting
+      event.preventDefault()
+  
+      if (weight === 0 || height === 0) {
         alert('Please enter a valid weight and height')
       } else {
         let bmi = (weight / (height * height) * 703)
         setBmi(bmi.toFixed(1))
+  
+        // Logic for message
+  
+        if (bmi < 25) {
+          setMessage('You are underweight')
+        } else if (bmi >= 25 && bmi < 30) {
+          setMessage('You are a healthy weight')
+        } else {
+          setMessage('You are overweight')
+        }
       }
     }
-
-        if(bmi<25){
-            setMessage("Your are underweight")
-        }else if(bmi>=25 && bmi < 30 ){
-            setMessage("You are within a healthy range")
-        }else{
-            setMessage("You are overweight")
-        }
-    
-
+  
+    //  show image based on bmi calculation
     let imgSrc;
-
+  
     if (bmi < 1) {
-    imgSrc = null
+      imgSrc = null
     } else {
-    if(bmi < 25) {
+      if(bmi < 25) {
         imgSrc = require('../images/underweight.png')
-    } else if (bmi >= 25 && bmi < 30) {
+      } else if (bmi >= 25 && bmi < 30) {
         imgSrc = require('../images/healthy.png')
-    } else {
+      } else {
         imgSrc = require('../images/overweight.png')
+      }
     }
-}
-    let reload=()=>{
-        window.location.reload();
+  
+  
+    let reload = () => {
+      window.location.reload()
     }
+  
     return(
         <div className="bmi-section">
-          <div className='container'>
+          <div className='calc'>
             <h2 className='center'>BMI Calculator</h2>
             <form onSubmit={calculateBmi}>
               <div>

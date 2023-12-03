@@ -18,6 +18,9 @@
     font-size:25px;
     gap:65px;
 }
+.nav-menu li {
+    color: black;
+}
 @media (max-width: 1000px) {
     .logo{
         font-size: 8vw;

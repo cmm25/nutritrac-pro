@@ -4,8 +4,8 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-gap: 1rem;
-    margin-bottom: 1rem;
     margin-left:10px;
+    background-color: white;
 }
 .slide img{
     width: 90%;

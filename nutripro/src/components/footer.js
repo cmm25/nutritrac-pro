@@ -6,7 +6,7 @@ function Footer() {
         <div className="container">
           <div className="row">
             <div className="col">
-              <h2>Nutripro.</h2>
+              <h2><a href="#top">Nutripro.</a></h2>
             </div>
             
             <div className="col">

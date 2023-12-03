@@ -1,11 +1,11 @@
 .main-footer {
-    color: white;
+    color: black ;
     background-color: #6B240C;
     padding-top: 3em;
     position: relative;
     bottom: 0;
     width: 100%;
-    margin-top: 5em;
+    
 }
 
 .row {
@@ -17,6 +17,10 @@
 h2 {
     font-size: clamp(1rem, 3vw, 2rem);
     margin-left: 10px;
+}
+h2 a{
+    text-decoration: none;
+    color: black;
 }
 
 .participants {
@@ -39,7 +43,7 @@ ion-icon {
 }
 
 ion-icon:hover {
-    color: black;
+    color: white;
 }
 
 /* Media Query for screens smaller than 768px */

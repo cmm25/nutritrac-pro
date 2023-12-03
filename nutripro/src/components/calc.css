@@ -4,14 +4,18 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    background-color: black;
 
   }
   
-  .container {
-    box-shadow: 0px 0px 12px #ccc;
+  .calc {
     border-radius: 8px;
     padding: 1rem;
-    background-color:#FFC26F;
+    background-color:#765827;
+    margin-top: 1rem;
+    height: fit-content;
+    margin-bottom: 1rem;
+
   }
   
   input {
@@ -20,6 +24,7 @@
     padding: 8px 4px;
     margin: 8px 0;
     border-radius: 8px;
+    border: none;
   }
   
   .btn {
@@ -30,7 +35,7 @@
     padding: 10px 0;
     background-color: #333;
     color: #fff;
-    border: 1px solid #333;
+    border: none;
     border-radius: 8px;
     cursor: pointer;
   }
@@ -54,7 +59,7 @@
   }
   
   .img-container img {
-    height: 200px;
+    height: 150px;
   }
   
   
