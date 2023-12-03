@@ -1,0 +1,17 @@
+.search-area{
+    display:flex;
+    justify-content:center;
+    margin-top: 20px
+    
+}
+.input-area{
+    height:3rem;
+    border-radius:1.5rem;
+    width: 20rem;
+    background-color:rgb(247, 197, 104);
+    border:none
+}
+.input-area::placeholder{
+    padding-left:10px;
+  
+}
