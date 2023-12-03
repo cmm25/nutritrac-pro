@@ -1,9 +1,8 @@
 .nav{
     display: flex;
-    background-color:pink;
     align-items: center;
     justify-content: space-between;
-    margin: 10px 20px;
+    margin: 10px 5px;
 }
 .logo{
     font-size: 42px;
@@ -13,6 +12,6 @@
     display:flex;
     align-items:center;
     list-style:none;
-    font-size:18px;
+    font-size:25px;
     gap:70px;
 }

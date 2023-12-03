@@ -1,7 +1,8 @@
 import "./hero.css"
+import BannerImage from "../assets/home-banner-image.png";
 function Hero(){
     return(
-        <div>
+        <div className="banner-container">
             <div className="home-text-section">
                 <h1 className="primary-heading">
                   Your Recommended Meal plans
@@ -10,6 +11,9 @@ function Hero(){
                     Healthy foods per your given diagnosis.
                 </p>
             </div>  
+            <div className="home-image-section">
+             <img src={BannerImage} alt="" />
+            </div>
         </div>
     )
 }
