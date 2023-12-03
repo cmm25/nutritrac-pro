@@ -1,8 +1,10 @@
 import React from 'react'
+import './App.css';
 import Hero  from './components/hero'
 import Search from './components/search'
 import NavBar from './components/navbar';
 import cardArea from'./components/cardarea';
+import Footer from './components/footer';
 import './App.css';
 
 function App() {
@@ -11,6 +13,7 @@ function App() {
       <NavBar/>
       <Hero/>
       <Search/>
+      <Footer/>
     </div>
   );
 }
