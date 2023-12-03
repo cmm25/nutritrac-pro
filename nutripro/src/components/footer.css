@@ -7,10 +7,24 @@
     width: 100%;
     margin-top:5em;
  }
- .row{
+.row{
     display:flex;
+    justify-content:space-between;
  }
 h2{
     font-size: clamp(1rem, 3vw, 2rem);
     margin-left: 10px;
+}
+
+.participants{
+    list-style:none;
+}
+.col-3{
+    margin: left 10px;
+}
+.social-media{
+    display:flex;
+    list-style:none;
+    padding:18px;
+   
 }

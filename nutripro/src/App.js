@@ -8,11 +8,24 @@ import Footer from './components/footer';
 import './App.css';
 
 function App() {
+  const cards = data.map(item => {
+    return (
+        <Card
+            key={item.id}
+            {...item}
+            
+        />
+    )
+})   
   return (
     <div className="App">
       <NavBar/>
       <Hero/>
       <Search/>
+      <section className="cards-list">
+        {cards}
+      </section>         
+      
       <Footer/>
     </div>
   );

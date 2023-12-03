@@ -1,4 +1,5 @@
 import './footer.css'
+import {FaGithub,FaDiscord} from 'react-icons'
 function Footer() {
     return (
       <div className="main-footer">
@@ -9,21 +10,21 @@ function Footer() {
             </div>
             
             <div className="col">
-              
-              <ui className="list-unstyled">
-                <li>DANK MEMES</li>
-                <li>OTHER STUFF</li>
-                <li>GUD STUFF</li>
-              </ui>
+              <ul className="participants">
+                <li>Lorem ipsum</li>
+                <li>Lorem ipsum</li>
+                <li>Lorem ipsum</li>
+                <li>Lorem ipsum</li>
+                <li>Lorem ipsum</li>
+                <li>Lorem ipsum</li>
+              </ul>
             </div>
-            {/* Column3 */}
-            <div className="col">
-              <h4>WELL ANOTHER COLUMN</h4>
-              <ui className="list-unstyled">
-                <li>DANK MEMES</li>
-                <li>OTHER STUFF</li>
-                <li>GUD STUFF</li>
-              </ui>
+            <div className="col-3">
+                <ul className="social-media">
+                    <li><FaGithub/></li>
+                    <li><FaDiscord/></li>
+                    <li>GUD STUFF</li>
+                </ul>
             </div>
           </div>
     
