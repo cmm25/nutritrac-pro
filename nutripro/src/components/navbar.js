@@ -6,13 +6,12 @@ function NavBar(){
         <header className="nav">
             <div className="logo" id="top">Nutripro</div>
             <ul className="nav-menu">
-                <li><a>home</a></li>
+                <li><a>Home</a></li>
                 <li><Link  to="section1" 
                 spy={true} 
                 smooth={true} 
                 offset={10} 
-                duration={500} >spotlight</Link>  </li>
-                <li>communities</li>
+                duration={500} >Spotlight</Link>  </li>
             </ul>
         </header>
     )
